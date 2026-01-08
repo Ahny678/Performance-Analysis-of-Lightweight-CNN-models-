@@ -1,14 +1,36 @@
-Crop health is a critical determinant of food security, especially in developing regions where staple
-crops like maize, sorghum, and rice serve as primary nutrition sources. However, fungal diseases
-continue to threaten these crops, leading to significant yield losses. Traditional disease detection
-methods are largely manual and prone to inaccuracies, prompting the need for automated, scalable
-solutions. This study explores the application of lightweight Convolutional Neural Networks (CNNs) for
-accurate and efficient classification of fungal diseases in crop leaves. Five pre-trained lightweight
-CNN architectures—VGG16, MobileNetV3, DenseNet121, NasNetMobile, and EfficientNetB2 were
-evaluated using a curated dataset of diseased and healthy leaf images. The models were assessed
-based on classification accuracy, computational efficiency, model size, and suitability for deployment
-in low-resource environments. Experimental results showed that EfficientNetB2 consistently outperformed other models in accuracy
-across all three crops, with MobileNetV3 providing a viable alternative for edge-device deployment
-due to its minimal memory footprint and low inference time. This research demonstrates the
-feasibility of deploying lightweight CNNs for early disease detection, supporting the advancement of
-precision agriculture in resource-constrained settings.
+## Trained Models and Results
+
+**Download trained models and experimental results:**
+👉 [https://drive.google.com/drive/folders/1ZzIIbyRSyJqvVQUHS7SePpaWWlB8AP48](https://drive.google.com/drive/folders/1ZzIIbyRSyJqvVQUHS7SePpaWWlB8AP48)
+
+---
+
+## Project Overview
+
+Crop health is a critical determinant of food security, particularly in developing regions where staple crops such as **maize, sorghum, and rice** serve as primary sources of nutrition. Fungal diseases pose a significant threat to these crops, often resulting in substantial yield losses. Conventional disease detection methods are largely manual, time-consuming, and prone to human error, highlighting the need for **automated and scalable diagnostic solutions**.
+
+This study investigates the use of **lightweight Convolutional Neural Networks (CNNs)** for accurate and efficient classification of fungal diseases in crop leaf images. Five pre-trained CNN architectures were evaluated:
+
+* VGG16
+* MobileNetV3
+* DenseNet121
+* NASNetMobile
+* EfficientNetB2
+
+The models were trained and tested on a curated dataset containing both healthy and diseased leaf images. Performance was evaluated based on **classification accuracy, computational efficiency, model size, and suitability for deployment in low-resource environments**.
+
+---
+
+## Key Findings
+
+* **EfficientNetB2** achieved the highest classification accuracy across maize, sorghum, and rice datasets.
+* **MobileNetV3** emerged as a strong alternative for edge and mobile deployment due to its **low memory footprint and fast inference time**.
+* All evaluated models demonstrated the feasibility of using lightweight CNNs for real-time crop disease detection.
+
+---
+
+## Conclusion
+
+The results confirm that lightweight CNN architectures can be effectively deployed for **early fungal disease detection in crops**, making them well-suited for **precision agriculture applications in resource-constrained settings**. This work supports the development of accessible AI-driven tools to improve crop monitoring, reduce yield losses, and enhance food security.
+
+ 
